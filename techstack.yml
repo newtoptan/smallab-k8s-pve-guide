@@ -1,7 +1,8 @@
 repo_name: newtoptan/smallab-k8s-pve-guide
 report_id: 1df17411f5bf20b7a1177f92d7e3b19e
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T04:10:09+00:00'
+timestamp: '2024-01-05T09:00:23+00:00'
 requested_by: ehlesp
 provider: github
 branch: main
@@ -15,7 +16,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
-  detection_source: k8sprjs/postgres-upgrade/configs/postgresql.conf
+  detection_source_url: https://github.com/newtoptan/smallab-k8s-pve-guide/blob/main/k8sprjs/gitea/components/db-postgresql/configs/postgresql.conf
+  detection_source: k8sprjs/gitea/components/db-postgresql/configs/postgresql.conf
   last_updated_by: ehlesp
   last_updated_on: 2022-07-21 20:03:28.000000000 Z
 - name: Git
@@ -26,6 +28,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/newtoptan/smallab-k8s-pve-guide
   detection_source: Repo Metadata
 - name: NGINX
   description: A high performance free open source web server powering busiest sites
@@ -36,6 +39,7 @@ tools:
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/newtoptan/smallab-k8s-pve-guide/blob/main/k8sprjs/nextcloud/components/server-nextcloud/configs/nginx.conf
   detection_source: k8sprjs/nextcloud/components/server-nextcloud/configs/nginx.conf
   last_updated_by: ehlesp
   last_updated_on: 2022-07-21 20:03:28.000000000 Z
@@ -48,4 +52,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/newtoptan/smallab-k8s-pve-guide
   detection_source: Repo Metadata
